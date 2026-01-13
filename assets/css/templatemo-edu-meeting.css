@@ -1980,3 +1980,88 @@ section.meetings-page tr.schedule-day td {
   font-weight: 700;
 }
 
+.carousel-text {
+  margin-top: 40px;
+}
+
+.rounded-text-box {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.rounded-text-box h4 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.rounded-text-box p {
+  margin-bottom: 0;
+  color: #555;
+}
+
+.carousel-text {
+  margin-bottom: 80px;
+}
+
+.rounded-text-box {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.fs-form {
+  max-width: 600px; /* overall form width */
+  margin: 0 auto; /* center form */
+}
+
+.fs-field {
+  margin-bottom: 20px; /* space between fields */
+}
+
+.fs-label {
+  display: block;      /* ensures label is above input */
+  text-align: left;    /* left-aligned labels */
+  margin-bottom: 5px;  /* small space between label and input */
+  font-weight: 600;    /* slightly bolder for readability */
+  font-size: 16px;
+}
+
+.fs-input,
+.fs-textarea {
+  width: 100%;         /* inputs and textarea same width */
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box; /* ensures padding doesn't break width */
+}
+
+.fs-textarea {
+  min-height: 150px;   /* bigger message box */
+  resize: vertical;    /* allows vertical resizing */
+}
+
+.fs-button {
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #e74c3c; /* red button */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.fs-button:hover {
+  background-color: #c0392b;
+}
+
+.fs-description {
+  text-align: center;
+  font-size: 14px;
+  color: green;
+  margin-top: 8px;
+}
+
