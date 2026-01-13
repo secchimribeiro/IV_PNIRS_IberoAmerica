@@ -2013,35 +2013,27 @@ section.meetings-page tr.schedule-day td {
 }
 
 .fs-form {
-  max-width: 600px; /* overall form width */
-  margin: 0 auto; /* center form */
+  max-width: 600px; /* sets the overall form width */
+  margin: 0 auto; /* centers the form */
 }
 
 .fs-field {
   margin-bottom: 20px; /* space between fields */
 }
 
-.fs-label {
-  display: block;      /* ensures label is above input */
-  text-align: left;    /* left-aligned labels */
-  margin-bottom: 5px;  /* small space between label and input */
-  font-weight: 600;    /* slightly bolder for readability */
-  font-size: 16px;
-}
-
 .fs-input,
 .fs-textarea {
-  width: 100%;         /* inputs and textarea same width */
-  padding: 12px 15px;
-  border-radius: 8px;
+  width: 100%; /* makes all inputs and textarea same width */
+  padding: 12px 15px; /* nicer spacing inside */
+  border-radius: 8px; /* rounded corners */
   border: 1px solid #ccc;
   font-size: 16px;
   box-sizing: border-box; /* ensures padding doesn't break width */
 }
 
 .fs-textarea {
-  min-height: 150px;   /* bigger message box */
-  resize: vertical;    /* allows vertical resizing */
+  min-height: 150px; /* makes the message box bigger */
+  resize: vertical; /* allows vertical resizing if needed */
 }
 
 .fs-button {
@@ -2058,10 +2050,17 @@ section.meetings-page tr.schedule-day td {
   background-color: #c0392b;
 }
 
-.fs-description {
-  text-align: center;
-  font-size: 14px;
-  color: green;
-  margin-top: 8px;
+.owl-service-item {
+  position: relative !important;  /* ensures the carousel container grows with content */
+  height: auto !important;        /* lets the container expand on mobile */
+  overflow: hidden;               /* prevents any items from overflowing */
 }
+.owl-service-item .item {
+  position: relative !important;  /* ensure each item stays in flow */
+}
+
+.services {
+  margin-bottom: 2rem; /* pushes content down */
+}
+
 
